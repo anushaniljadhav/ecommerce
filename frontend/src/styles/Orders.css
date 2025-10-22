@@ -1,0 +1,23 @@
+.orders-page { padding:40px 0; }
+.orders-page .container { padding: 24px 12px; }
+.orders-page h1 { margin-bottom: 8px }
+
+.order-success {
+  display:flex;
+  gap:12px;
+  align-items:center;
+  background: #e9fbe9;
+  border: 1px solid #d4f6d4;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.order-success .tick { font-size: 36px }
+.order-success h2 { margin:0 }
+
+.orders-list { margin-top: 12px }
+.order-card { border:1px solid #eee; padding:12px; border-radius:8px; margin-bottom:8px }
+.order-header { display:flex; justify-content:space-between; font-weight:600 }
+.order-body { margin-top:8px; color:#444 }
+
+.orders-page p { color: #555 }.orders-page { padding:40px 0; }

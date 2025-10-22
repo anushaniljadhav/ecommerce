@@ -1,0 +1,6 @@
+.feedback-page { max-width: 700px; margin: 24px auto; padding: 0 16px; }
+.feedback-form { display: flex; flex-direction: column; gap: 8px; }
+.feedback-form label { display: flex; flex-direction: column; font-weight: 600; color: #374151; }
+.feedback-form input, .feedback-form textarea { padding: 8px; border: 1px solid #e5e7eb; border-radius: 6px; }
+.btn-primary { background: #111827; color: white; padding: 8px 12px; border: none; border-radius: 6px; cursor: pointer; }
+.feedback-thanks { padding: 16px; background: #ecfeff; border-radius: 8px; }

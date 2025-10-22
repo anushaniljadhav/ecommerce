@@ -1,0 +1,14 @@
+.page-container {
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+.about-hero h2 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+.about-hero .lead {
+  color: #374151;
+}
+.about-content h3 { margin-top: 18px; }
+.about-content p, .about-content ul { color: #4b5563; }

@@ -1,0 +1,5 @@
+.cart-page { padding:40px 0; }
+.cart-content { display:flex; gap:24px; }
+.cart-items { flex:2; }
+.cart-summary { flex:1; border-left:1px solid #eee; padding-left:16px; }
+.cart-item { display:flex; gap:12px; align-items:center; margin-bottom:16px; }

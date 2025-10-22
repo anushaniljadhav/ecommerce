@@ -1,0 +1,78 @@
+.home-hero{
+	min-height:72vh;
+	background-size:cover;
+	background-position:center;
+	display:flex;
+	align-items:center;
+}
+
+.home-hero .overlay{
+	width:100%;
+	background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.35));
+	padding:64px 0;
+}
+
+.hero-content{
+	color:#fff;
+	max-width:1100px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.hero-title{
+	font-size:3.2rem;
+	margin-bottom:0.5rem;
+	text-shadow:0 6px 20px rgba(0,0,0,0.45);
+}
+
+.hero-sub{
+	font-size:1.15rem;
+	margin-bottom:1rem;
+	opacity:0.95;
+}
+
+.hero-cta{
+	display:flex;
+	gap:0.75rem;
+	justify-content:center;
+	flex-wrap:wrap;
+	margin-bottom:28px;
+}
+
+.btn-lg{padding:0.9rem 1.5rem;font-size:1.05rem}
+.btn-outline{background:transparent;border:2px solid #fff;color:#fff;border-radius:8px;padding:0.7rem 1rem}
+
+/* Quotes carousel */
+.quotes-carousel{
+	position:relative;
+	max-width:820px;
+	margin:0 auto;
+	padding:18px 22px 8px;
+}
+
+.quotes-carousel .quote{
+	display:none;
+	color:#f5f5f7;
+	transition:opacity 400ms ease, transform 400ms ease;
+}
+
+.quotes-carousel .quote.active{
+	display:block;
+	opacity:1;
+	transform:translateY(0);
+}
+
+.quote-text{font-size:1.05rem;margin:0 0 6px;line-height:1.45}
+.quote-author{font-size:0.9rem;margin:0;color:#d9d9db}
+
+.quote-dots{display:flex;gap:8px;justify-content:center;margin-top:10px}
+.dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,0.35);border:none;cursor:pointer}
+.dot-active{background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.25)}
+
+/* small screens */
+@media (max-width:720px){
+	.hero-title{font-size:2rem}
+	.hero-sub{font-size:1rem}
+	.quotes-carousel{padding:12px}
+	.quote-text{font-size:0.98rem}
+}

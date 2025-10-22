@@ -1,0 +1,32 @@
+.product-detail-page { padding:40px 0; }
+.product-detail { display:flex; gap:24px; }
+.product-image img { max-width:400px; width:100%; height:auto; }
+
+/* Styles for 'You may also like' */
+.product-detail-page .more-section{margin-top:40px}
+.more-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px}
+.more-card{background:#fff;border:1px solid #eee;border-radius:6px;overflow:hidden;display:flex;flex-direction:column}
+.more-card .more-image{display:block;height:120px;overflow:hidden}
+.more-card .more-image img{width:100%;height:100%;object-fit:cover}
+.more-info{padding:8px;display:flex;justify-content:space-between;align-items:center}
+.more-name{color:#333;text-decoration:none;font-size:0.95rem}
+.more-price{font-weight:600;color:#111}
+@media (max-width:600px){.more-card .more-image{height:100px}}
+
+/* Filter drawer styles */
+.filter-toggle{position:absolute;left:10px;top:80px;background:#fff;border:1px solid #eee;padding:8px 10px;border-radius:8px;cursor:pointer;z-index:20}
+.filter-drawer{position:fixed;left:-320px;top:80px;width:300px;background:#fff;border-radius:8px;border:1px solid #eee;padding:12px;box-shadow:0 10px 30px rgba(0,0,0,0.08);transition:left .25s ease;z-index:30}
+.filter-drawer.open{left:16px}
+.filter-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.filter-body label{display:block;margin-top:8px;margin-bottom:4px}
+.filter-body select,.filter-body input[type=range]{width:100%}
+.close-filter{background:transparent;border:none;cursor:pointer}
+
+.more-section{position:relative}
+
+.results-badge{background:#667eea;color:#fff;padding:4px 8px;border-radius:999px;font-size:0.8rem;margin-left:8px}
+.filter-body input[type=checkbox]{width:16px;height:16px}
+
+.inline-message{padding:8px 12px;border-radius:8px}
+.inline-message.success{background:#e6f7ea;color:#0a7a3b}
+.inline-message.error{background:#fff1f0;color:#a40000}

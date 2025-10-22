@@ -1,0 +1,23 @@
+.admin-page {
+  padding: 24px 12px;
+}
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+.admin-table th, .admin-table td {
+  border: 1px solid #eee;
+  padding: 8px 12px;
+  text-align: left;
+}
+.admin-table th {
+  background: #fafafa;
+}
+.btn-danger {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
