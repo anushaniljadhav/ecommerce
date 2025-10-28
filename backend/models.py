@@ -27,7 +27,7 @@ except Exception:
 
 from datetime import datetime
 
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb+srv://anushjadhav:anush3108@ecommerce.ppn25ky.mongodb.net/')
 db = client.ecommerce
 
 class User:
